@@ -136,7 +136,6 @@ void turn_downward(vector<int> &st, char &direction)
     }
 }
 
-//
 void print(vector<int> st_point, char direction, char command)
 {
     cout << command << "-(" << st_point[0] << "," << st_point[1] << "," << st_point[2] << ")-" << direction << endl;
